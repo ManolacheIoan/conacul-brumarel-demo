@@ -45,11 +45,11 @@ export default function Home() {
       <div className="relative z-10 mx-auto -mt-14 max-w-5xl px-5">
         <dl className="grid grid-cols-3 divide-x divide-aur/20 rounded-3xl border border-aur/20 bg-ivoriu shadow-[0_24px_50px_-30px_rgb(36_21_14/.45)]">
           <div className="flex flex-col-reverse px-3 py-5 text-center sm:px-6">
-            <dt className="mt-1 text-[11px] leading-snug text-muted sm:text-xs">pe Google, din peste 660 de recenzii</dt>
+            <dt className="mt-1 text-[11px] leading-snug text-muted sm:text-xs">pe Google · 120 de recenzii [exemplu]</dt>
             <dd className="flex items-center justify-center gap-2 font-serif text-xl whitespace-nowrap text-cioco sm:text-3xl">{site.google.rating}<Star aria-hidden="true" className="h-5 w-5 text-aur" fill="currentColor" strokeWidth={0} /></dd>
           </div>
           <div className="flex flex-col-reverse px-3 py-5 text-center sm:px-6">
-            <dt className="mt-1 text-[11px] leading-snug text-muted sm:text-xs">firmă locală, din {site.anInfiintare}</dt>
+            <dt className="mt-1 text-[11px] leading-snug text-muted sm:text-xs">firmă locală, din {site.anInfiintare} [exemplu]</dt>
             <dd className="font-serif text-xl whitespace-nowrap text-cioco sm:text-3xl">{ani} de ani</dd>
           </div>
           <div className="flex flex-col-reverse px-3 py-5 text-center sm:px-6">
@@ -170,7 +170,7 @@ export default function Home() {
         ]} />
       </section>
 
-      {/* RECENZII — doar nota reală */}
+      {/* RECENZII — nota (exemplu) */}
       <section aria-labelledby="recenzii" className="mx-auto max-w-6xl px-5 pb-16">
         <div className="reveal flex flex-col items-center gap-6 rounded-3xl border border-aur/25 bg-white px-6 py-10 text-center md:flex-row md:justify-between md:px-12 md:text-left">
           <div className="flex items-center gap-5">
